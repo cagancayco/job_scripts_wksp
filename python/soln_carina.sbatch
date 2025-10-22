@@ -2,9 +2,9 @@
 #SBATCH --job-name=myjob
 #SBATCH --partition=gpu
 #SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:1
+##SBATCH --gres=gpu:1 #commenting out GPU request for now
 #SBATCH --mem=16GB
-#SBATCH --time=10:00
+#SBATCH --time=20:00
 #SBATCH --mail-type=ALL
 #SBATCH --output=myjob.%j.out
 #SBATCH --error=myjob.%j.err
