@@ -1,5 +1,6 @@
 # Install doFuture package
 # Typically do this in an interactive session instead!
+# Comment out the following line if using SCG
 install.packages("doFuture", lib=Sys.getenv("R_LIBS_USER"),repos="http://cran.us.r-project.org", Ncpus=4)
 
 # Load the doFuture package
