@@ -17,6 +17,6 @@ source ~/.bashrc
 mamba create -n tf -y
 
 source activate tf
-mamba install tensorflow
+mamba install tensorflow -y
 python3 cifar_cnn.py
 source deactivate
